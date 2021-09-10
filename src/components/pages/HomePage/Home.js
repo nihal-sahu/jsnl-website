@@ -1,4 +1,5 @@
 import React from 'react'
+import LazyLoad from 'react-lazyload';
 import HeroSection from '../../HeroSection'
 import {homeObjOne, homeObjTwo} from './Data'
 
@@ -8,7 +9,9 @@ function Home() {
 
     return (
         <>
-            <img src = {process.env.PUBLIC_URL + displayImages[imageIndex]} /> 
+            <LazyLoad>
+                <img src = {process.env.PUBLIC_URL + displayImages[imageIndex]} /> 
+            </LazyLoad>
             <div className = 'headingRegular'>
                 Meet JSNL...
             </div>

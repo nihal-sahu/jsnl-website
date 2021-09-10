@@ -2,6 +2,7 @@ import React from 'react'
 import {Button} from './Button'
 import {Link} from 'react-router-dom'
 import './HeroSection.css'
+import LazyLoad from 'react-lazyload';
 
 function HeroSection({
     lightBg, topLine, lightText, lightTextDesc, headline, description,
@@ -39,7 +40,9 @@ function HeroSection({
                         </div>
                         <div className="col">
                             <div className="home__hero-img-wrapper">
+                               <LazyLoad>
                                 <img src= {img} alt = {alt} className="home__hero-img"/>
+                                </LazyLoad>
                             </div>
                         </div>
                     </div>

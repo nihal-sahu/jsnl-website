@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import './GridLayout.css'
 import { MdEmail } from "react-icons/md";
 import { AiOutlineMail, AiFillLinkedin} from "react-icons/ai";
+import LazyLoad from 'react-lazyload';
 
 function HeroSection({
     lightBg, lightText, headline, 
@@ -46,7 +47,9 @@ function HeroSection({
                         </div>
                         <div className="col">
                             <div className="home__hero-img-wrapper">
+                                <LazyLoad>
                                 <img src= {img} alt = {alt} className="home__hero-img"/>
+                                </LazyLoad>
                             </div>
                         </div>
                     </div>
