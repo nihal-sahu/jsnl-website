@@ -1,0 +1,11 @@
+.titleCard {
+    background-color: #000080;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 24px;
+    font-size: 46px;
+    line-height: 1.1;
+    font-weight: 600;
+    border: none;
+}
