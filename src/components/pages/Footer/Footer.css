@@ -1,4 +1,6 @@
 .footer-container {
+  position: absolute;
+  bottom: 0;
   background-color: #000080;
   padding: 4rem 0 2rem 0;
   display: flex;
