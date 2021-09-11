@@ -140,6 +140,10 @@
 }
 
 @media screen and (max-width: 820px) {
+  .footer-container {
+    height: 170px;
+  }
+  
   .footer-links {
     padding-top: 2rem;
   }
