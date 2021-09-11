@@ -28,6 +28,8 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
+    <div className = "page-container">
+    <div className = "content-wrap">
     <Router>
       <ScrollToTop />
       <Navbar />
@@ -56,6 +58,8 @@ function App() {
       </Switch>
       <Footer />
     </Router>
+    </div>
+    </div>
   );
 }
 
