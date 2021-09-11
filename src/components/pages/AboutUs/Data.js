@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: "Director\nP. Eng., MBA, PMP",
     headline: "Jitendra Sahu",
-    description: "An experienced leader with hands on experience in developing and executing large capital projects and maintenance turnarounds in the Oil & Gas and Utilities industries. Developed deep expertise in the following areas by working 25+ years in on various roles with Suncor, Imperial Oil, ConocoPhillips, McKinsey and TransAlta:\n-Project Management\n-Development Engineering\n-Project Engineering\n-Supply Chain Management\n-Estimating\n-Project Control\n-Investment Management\n-Management Consulting",
+    description: "An experienced leader with hands on experience in developing and executing large capital projects and maintenance turnarounds in the Oil & Gas and Utilities industries. Developed deep expertise in the following areas by working 25+ years in various roles with Suncor, Imperial Oil, ConocoPhillips, McKinsey and TransAlta:\n-Project Management\n-Development Engineering\n-Project Engineering\n-Supply Chain Management\n-Estimating\n-Project Control\n-Investment Management\n-Management Consulting",
     buttonLabel: "",
     imgStart: "start",
     img: "/images/JitendraSahu.jpg",

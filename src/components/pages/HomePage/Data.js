@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: "",
     headline: "",
-    description: "We have been established for the past 11 years in Calgary, Alberta and are a unique project and operation management service provider to improve your capital and operation productivities.",
+    description: "We have been established for the past 11 years in Calgary, Alberta and are a unique project and operation management service provider to improve client's capital and operation productivities.",
     buttonLabel: "",
     imgStart: "start",
     img: "images/home1.jpg",
